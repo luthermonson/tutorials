@@ -1,0 +1,5 @@
+app:
+  host: mydomain.com
+  post: 443
+  workers: 2
+  dsn: root:test@tcp(mysql.domain.com:3306)/test?charset=utf8&parseTime=True&loc=Local
